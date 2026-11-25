@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tj">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Шартҳои истифода</title>
+<style>
+*{box-sizing:border-box}
+:root{--bg:#f6f7f9;--card:#ffffff;--text:#181c24;--muted:#5c6675;--line:#e5e8ee;
+--accent:#2f6fed;--accent-soft:#eaf0fe;--chip:#f0f2f6}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--text:#e7ebf2;
+--muted:#98a2b3;--line:#272d38;--accent:#7aa7ff;--accent-soft:#1c2740;--chip:#202632}}
+body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+color:var(--text);background:var(--bg)}
+header{position:sticky;top:0;z-index:9;background:var(--card);border-bottom:1px solid var(--line);
+padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;text-decoration:none;color:var(--text)}
+.brand .logo{width:30px;height:30px;border-radius:9px;background:var(--accent);color:#fff;
+display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;padding:6px 12px;border-radius:8px}
+nav a:hover{background:var(--chip);color:var(--text)}
+nav a.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+main{max-width:46rem;margin:0 auto;padding:36px 20px 72px}
+.hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 26px 22px;
+margin-bottom:30px}
+.eyebrow{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:13px;
+font-weight:600;padding:4px 12px;border-radius:99px;margin-bottom:12px}
+h1{font-size:30px;line-height:1.22;margin:0 0 10px}
+.hero p{color:var(--muted);margin:0;font-size:15px}
+h2{font-size:20px;line-height:1.35;margin:36px 0 12px;scroll-margin-top:76px}
+h2::before{content:"";display:block;width:34px;height:3px;border-radius:2px;
+background:var(--accent);margin-bottom:10px}
+h3{font-size:17px;margin:22px 0 8px}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 14px;padding-left:24px}
+li{margin:0 0 7px}
+li::marker{color:var(--accent);font-weight:600}
+a{color:var(--accent)}
+table{border-collapse:separate;border-spacing:0;width:100%;margin:6px 0 18px;font-size:14.5px;
+background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{padding:10px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{background:var(--chip);font-weight:600;font-size:13.5px}
+tr:last-child td{border-bottom:none}
+code{background:var(--chip);padding:2px 6px;border-radius:6px;font-size:13.5px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:0 0 16px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:0 0 34px}
+.toc-title{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+color:var(--muted);margin:0 0 10px}
+.toc ol{margin:0;padding-left:20px;columns:2;column-gap:28px}
+.toc li{margin:0 0 6px;break-inside:avoid}
+.note{border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 12px 12px 0;
+padding:14px 18px;margin:0 0 16px}
+footer{max-width:46rem;margin:0 auto;padding:22px 20px 40px;color:var(--muted);font-size:14px;
+border-top:1px solid var(--line)}
+@media(max-width:560px){.toc ol{columns:1}h1{font-size:25px}.hero{padding:20px 18px 18px}}
+</style>
+</head>
+<body>
+<header>
+    <a class="brand" href="index.html"><span class="logo">S</span>Браузер</a>
+<nav>
+    <a href="index.html">Документы</a>
+    <a href="privacy.html">Политика</a>
+    <a href="privacy.en.html">Privacy</a>
+    <a href="privacy.tj.html">Сиёсат (tg)</a>
+    <a href="privacy.uz.html">Maxfiylik (uz)</a>
+    <a href="terms.html">Условия</a>
+    <a href="terms.en.html">Terms</a>
+    <a href="terms.tj.html" class="on">Шартҳо (tg)</a>
+    <a href="terms.uz.html">Shartlar (uz)</a>
+</nav>
+</header>
+<main>
+<div class="hero">
+    <span class="eyebrow">25 ноября 2026</span>
+    <h1>Шартҳои истифода</h1>
+    <p><strong>S Браузер</strong> (барномаи <code>com.safarali.browser</code>) Таҳиягари: Safarali Group, Душанбе, Тоҷикистон Нусхаи 25 ноябри соли 2026. Ба версияи 3.0 ва версияҳои баъдинаи барнома шомил аст.</p>
+</div>
+<div class="toc"><p class="toc-title">Мундариҷа</p><ol><li><a href="#1-sozishnoma">1. Созишнома</a></li><li><a href="#2-sinnu-sol">2. Синну сол</a></li><li><a href="#3-barnoma-ch-mekunad">3. Барнома чӣ мекунад</a></li><li><a href="#4-hatar-oe-ki-abul-mekuned">4. Хатарҳое, ки қабул мекунед</a></li><li><a href="#5-ch-man-ast">5. Чӣ манъ аст</a></li><li><a href="#6-bastani-reklama-va-treker-o">6. Бастани реклама ва трекерҳо</a></li><li><a href="#7-re-ai-mahf">7. Реҷаи махфӣ</a></li><li><a href="#8-fayl-o-va-u-u-i-muallif">8. Файлҳо ва ҳуқуқи муаллиф</a></li><li><a href="#9-navsozi-o-va-ta-irot">9. Навсозиҳо ва тағирот</a></li><li><a href="#10-e-guna-kafolat-nest">10. Ҳеҷ гуна кафолат нест</a></li><li><a href="#11-ma-dudkunii-masuliyat">11. Маҳдудкунии масъулият</a></li><li><a href="#12-molikiyati-ze-n">12. Моликияти зеҳнӣ</a></li><li><a href="#13-tamomshudan">13. Тамомшудан</a></li><li><a href="#14-u-u-i-amal-va-ba-s-o">14. Ҳуқуқи амалӣ ва баҳсҳо</a></li><li><a href="#15-ta-iroti-shart-o">15. Тағироти шартҳо</a></li><li><a href="#16-digar">16. Дигар</a></li><li><a href="#17-aloka">17. Алока</a></li></ol></div>
+<h2 id="1-sozishnoma">1. Созишнома</h2>
+<p>Ин шартҳо созишнома байни шумо ва Safarali Group дар бораи истифодаи барномаи S Браузер аст. Ба воситаи насб кардан, кушодан ё истифода бурдани барнома шумо ин шартҳоро қабул мекунед. Агар қабул накунед, барномаро хориҷ кунед.</p>
+<h2 id="2-sinnu-sol">2. Синну сол</h2>
+<p>Аз 18 сол боло шартҳоро худатон қабул мекунед. Аз 13 то 17 сол бо иҷозати волидайн ё ғамхӯр истифода баред. Камтар аз 13 сол истифода бурдан манъ аст.</p>
+<h2 id="3-barnoma-ch-mekunad">3. Барнома чӣ мекунад</h2>
+<p>S Браузер сайтҳоро нишон медиҳад ва трафикро тавассути прокси мегузаронад. Барнома проксиҳоро аз рӯйхатҳои умумии озод мегирад, месанҷад ва якеро интихоб мекунад. Проксиҳо тааллуқи шахсони сеюм доранд. Мо онҳоро идора намекунем, соҳибонашонро намешиносем, обрӯи онҳоро насанҷем ва кафолат дода наметавонем, ки сабт намекунанд ё маълумотро иваз намекунанд.</p>
+<h2 id="4-hatar-oe-ki-abul-mekuned">4. Хатарҳое, ки қабул мекунед</h2>
+<ul><li>Дуюмкунандаи прокси нишонаҳои сайтҳои кушода, вақт ва ҳаҷми пайвастҳо ва нишонаи шабакаи шуморо мебинад. Трафики рамзнокнашударо хонда ва иваз карда метавонад.</li><li>Ба прокси-и ройгон парол, маълумоти карт ва кодҳои тасдиқ ворид накунед. Барномаро барои бонк, хадамоти давлатӣ ва ҷамъпарати крипто истифода набаред.</li><li>Санҷиши прокси танҳо ин маъно дорад, ки ӯ ба се дархост ҷавоб медиҳад ва 32 КБ медиҳад. Ин кафолати бехатарӣ, суръат ё набудани сабт нест.</li><li>Файлҳои боргирӣшударо системаи боргирии Android мегирад, аз прокси-и барнома мегузарад. Дархост бо нишонаи шабакаи худатон меравад.</li><li>Сайтҳо ва мундариҷаи онҳо аз мо нестанд. Барои он, ки кушодаед, худатон ҷавобгӯед.</li></ul>
+<h2 id="5-ch-man-ast">5. Чӣ манъ аст</h2>
+<p>Барномаро барои:</p>
+<ul><li>вайрон кардани қонуни кишвари худатон ё кишваре, ки трафик аз он мегузарад;</li><li>фиристодани спам ва паёмҳои омборӣ;</li><li>ҳамла ба шабакаҳо, серверҳо ва хадамотҳо, санҷидани портҳои дигарон, пайдо кардани паролҳо;</li><li>паҳн кардани барномаҳои зарарнок ва пайвандҳои фишингӣ;</li><li>мундариҷа бо зӯроварии сексуалӣ нисбат ба кӯдакон;</li><li>фиреб додани одамон;</li><li>дархостҳои оммавии худкор тавассути проксиҳо барои бор кардани хадамотҳои дигарон;</li><li>фурӯхтани дастрасӣ ба проксиҳо ҳамчун хидмат</li></ul>
+<p>истифода бурдан манъ аст.</p>
+<p>Алоҳида манъ аст: барномаро барои худ ҷудо кардан, нусхаҳояшро фурӯхтан, ба барномаи дигар дохил кардан ва рӯйхати проксиҳоро барои фурӯши тиҷорат гиристан.</p>
+<p>Вайрон кардани ин қоидаҳо ҳуқуқи истифодаи шуморо тамом мекунад.</p>
+<h2 id="6-bastani-reklama-va-treker-o">6. Бастани реклама ва трекерҳо</h2>
+<p>Рӯйхати нишонаҳо дар барнома аст. Вай метавонад сайтҳоро вайрон кунад: як қисми онҳо бе доменҳои реклама ва хидматӣ кор намекунанд. Агар сайт кор накунад, блокирокаро дар танзимот хомӯш кунед. Мо барои зарари аз блокирокаи нодуруст ҷавобгӯ нестем.</p>
+<h2 id="7-re-ai-mahf">7. Реҷаи махфӣ</h2>
+<p>Реҷаи махфӣ cookies-и сайтҳои варақаи махфиро, кэш ва таърихи онро тоза мекунад. Вай трафикро аз дуюмкунандаи прокси намепӯшонад ва пайвасти варақаи махфиро бо варақаҳои оддӣ манъ намекунад, чунки прокси ягонааст. Тафсилот дар банди 5 Сиёсати махфият.</p>
+<h2 id="8-fayl-o-va-u-u-i-muallif">8. Файлҳо ва ҳуқуқи муаллиф</h2>
+<p>Шумо барои файлҳое, ки бор мегиред ва мефиристед, ва барои риояи ҳуқуқи соҳибонашон ҷавобгӯед.</p>
+<h2 id="9-navsozi-o-va-ta-irot">9. Навсозиҳо ва тағирот</h2>
+<p>Мо навсозиҳоро бо хоҳиши худ бароварда метавонем, вазифаҳоро тағир дода ё мегирем ва дастгириро тамом карда метавонем. Як қисми вазифаҳо аз версияи Android, система ва сайтҳои сеюм вобаста аст ва бе мо метавонад кор накунад.</p>
+<h2 id="10-e-guna-kafolat-nest">10. Ҳеҷ гуна кафолат нест</h2>
+<p>Барнома «ҳамон тавре ки ҳаст» дода мешавад. Дар ҳадди иҷозати қонун мо кафолат намедиҳем: кори бе хатогиҳо ва танаффусҳо, дақиқии санҷиш ва интихоби прокси, дастрасӣ ва суръати прокси, мувофиқат бо мақсади муайян, ки сайтҳо кушода шаванд, ки блокировка ба монеъ нашавад.</p>
+<h2 id="11-ma-dudkunii-masuliyat">11. Маҳдудкунии масъулият</h2>
+<p>Дар ҳадди иҷозати қонун мо барои зарарҳои бавосита набуда, тасодуфӣ, фоидаи аз даст рафта, маълумоти аз даст рафта, рамзгузорӣ аз прокси, амали шахсони сеюм, танҳоӣ ва мундариҷаи сайтҳо ҷавобгӯ нестем. Масъулияти умумии Safarali Group ба маблағе, ки барои барнома пардохтед, маҳдуд аст. Барнома ройгон аст, пас ин маблағ сифр аст.</p>
+<p>Ҳеҷ чиз дар ин шартҳо масъулияти классикӣ манъ намешавад, ки бо қонун манъ нашавад: хатасӣ ва беэҳтиётии калон, зарар ба ҳаёт ва саломатӣ, ҳуқуқи истеъмолкунанда.</p>
+<h2 id="12-molikiyati-ze-n">12. Моликияти зеҳнӣ</h2>
+<p>Ном, нишон, ороиш ва коди барнома тааллуқи Safarali Group дорад. Китобхонаҳои кушода иҷозати худро истифода мебаранд, рӯйхат дар <code>app/build.gradle.kts</code> аст. Мундариҷаи сайтҳо тааллуқи соҳибони сайтҳо дорад. Рӯйхатҳои прокси тааллуқи тартибдиҳандагон доранд, барнома танҳо мехонад.</p>
+<p>Шумо истифодаи шахсӣ, ғайриистисноӣ ва нододигаронидашудаи барномаро мегиред. Нусхабардорӣ, тағир додан, паҳн кардан ва фурӯхтани барнома бе иҷозати хаттӣ манъ аст.</p>
+<h2 id="13-tamomshudan">13. Тамомшудан</h2>
+<p>Истифодаро тамом мекунед, барномаро хориҷ кардан. Мо паҳн кардани барномаро тамом карда, навсозӣ набароварда метавонем.</p>
+<h2 id="14-u-u-i-amal-va-ba-s-o">14. Ҳуқуқи амалӣ ва баҳсҳо</h2>
+<p>Ҳуқуқи Ҷумҳурии Тоҷикистон амал мекунад. Қоидаҳои ҳатмии ҳимояи ҳуқуқҳои истеъмолкунанда дар кишвари зисти шумо қувваи худро доранд. Пеш аз рафтан ба суд ба <code>t.me/Safaraligroup</code> нависед, бо муколама ҳал карданӣ.</p>
+<h2 id="15-ta-iroti-shart-o">15. Тағироти шартҳо</h2>
+<p>Нусхаи нав дар барнома ва дар нишонаи <code>safarali-ai.ru</code> нашр мешавад. Санаи нусха дар боло аст. Истифодаи идома, маънояш, қабули нусхаи нав аст. Агар розӣ набошед, барномаро хориҷ кунед.</p>
+<h2 id="16-digar">16. Дигар</h2>
+<p>Агар ягон банд ноэътибор эътироф шавад, боқимонда қувваи худро доранд. Ин шартҳо ба шахсони сеюм ҳуқуқ намедиҳанд.</p>
+<h2 id="17-aloka">17. Алока</h2>
+<p>Telegram: <code>t.me/Safaraligroup</code></p>
+<p>Сайт: <code>safarali-ai.ru</code></p>
+</main>
+<footer>S Браузер, Safarali Group, Душанбе. Редакция от 25 ноября 2026 года.</footer>
+</body>
+</html>

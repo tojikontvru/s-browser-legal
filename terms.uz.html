@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Foydalanish shartlari</title>
+<style>
+*{box-sizing:border-box}
+:root{--bg:#f6f7f9;--card:#ffffff;--text:#181c24;--muted:#5c6675;--line:#e5e8ee;
+--accent:#2f6fed;--accent-soft:#eaf0fe;--chip:#f0f2f6}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--text:#e7ebf2;
+--muted:#98a2b3;--line:#272d38;--accent:#7aa7ff;--accent-soft:#1c2740;--chip:#202632}}
+body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+color:var(--text);background:var(--bg)}
+header{position:sticky;top:0;z-index:9;background:var(--card);border-bottom:1px solid var(--line);
+padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;text-decoration:none;color:var(--text)}
+.brand .logo{width:30px;height:30px;border-radius:9px;background:var(--accent);color:#fff;
+display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;padding:6px 12px;border-radius:8px}
+nav a:hover{background:var(--chip);color:var(--text)}
+nav a.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+main{max-width:46rem;margin:0 auto;padding:36px 20px 72px}
+.hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 26px 22px;
+margin-bottom:30px}
+.eyebrow{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:13px;
+font-weight:600;padding:4px 12px;border-radius:99px;margin-bottom:12px}
+h1{font-size:30px;line-height:1.22;margin:0 0 10px}
+.hero p{color:var(--muted);margin:0;font-size:15px}
+h2{font-size:20px;line-height:1.35;margin:36px 0 12px;scroll-margin-top:76px}
+h2::before{content:"";display:block;width:34px;height:3px;border-radius:2px;
+background:var(--accent);margin-bottom:10px}
+h3{font-size:17px;margin:22px 0 8px}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 14px;padding-left:24px}
+li{margin:0 0 7px}
+li::marker{color:var(--accent);font-weight:600}
+a{color:var(--accent)}
+table{border-collapse:separate;border-spacing:0;width:100%;margin:6px 0 18px;font-size:14.5px;
+background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{padding:10px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{background:var(--chip);font-weight:600;font-size:13.5px}
+tr:last-child td{border-bottom:none}
+code{background:var(--chip);padding:2px 6px;border-radius:6px;font-size:13.5px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:0 0 16px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:0 0 34px}
+.toc-title{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+color:var(--muted);margin:0 0 10px}
+.toc ol{margin:0;padding-left:20px;columns:2;column-gap:28px}
+.toc li{margin:0 0 6px;break-inside:avoid}
+.note{border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 12px 12px 0;
+padding:14px 18px;margin:0 0 16px}
+footer{max-width:46rem;margin:0 auto;padding:22px 20px 40px;color:var(--muted);font-size:14px;
+border-top:1px solid var(--line)}
+@media(max-width:560px){.toc ol{columns:1}h1{font-size:25px}.hero{padding:20px 18px 18px}}
+</style>
+</head>
+<body>
+<header>
+    <a class="brand" href="index.html"><span class="logo">S</span>Браузер</a>
+<nav>
+    <a href="index.html">Документы</a>
+    <a href="privacy.html">Политика</a>
+    <a href="privacy.en.html">Privacy</a>
+    <a href="privacy.tj.html">Сиёсат (tg)</a>
+    <a href="privacy.uz.html">Maxfiylik (uz)</a>
+    <a href="terms.html">Условия</a>
+    <a href="terms.en.html">Terms</a>
+    <a href="terms.tj.html">Шартҳо (tg)</a>
+    <a href="terms.uz.html" class="on">Shartlar (uz)</a>
+</nav>
+</header>
+<main>
+<div class="hero">
+    <span class="eyebrow">25 ноября 2026</span>
+    <h1>Foydalanish shartlari</h1>
+    <p><strong>S Brauzer</strong> (ilova <code>com.safarali.browser</code>) Ishlab chiquvchi: Safarali Group, Dushanba, Tojikiston 25-noyabr 2026-yilgi tahrir. Ilovanning 3.0 va undan keyingi versiyalariga taalluqli.</p>
+</div>
+<div class="toc"><p class="toc-title">Mundarija</p><ol><li><a href="#1-kelishuv">1. Kelishuv</a></li><li><a href="#2-yosh">2. Yosh</a></li><li><a href="#3-ilova-nima-qiladi">3. Ilova nima qiladi</a></li><li><a href="#4-qabul-qiladigan-xavflaringiz">4. Qabul qiladigan xavflaringiz</a></li><li><a href="#5-taqiqlangan-foydalanish">5. Taqiqlangan foydalanish</a></li><li><a href="#6-reklama-va-trekerlarni-bloklash">6. Reklama va trekerlarni bloklash</a></li><li><a href="#7-maxfiy-rejim">7. Maxfiy rejim</a></li><li><a href="#8-fayllar-va-mualliflik-huquqi">8. Fayllar va mualliflik huquqi</a></li><li><a href="#9-yangilanishlar-va-o-zgarishlar">9. Yangilanishlar va oʻzgarishlar</a></li><li><a href="#10-hech-qanday-kafolat-yo-q">10. Hech qanday kafolat yoʻq</a></li><li><a href="#11-javobgarlikni-cheklash">11. Javobgarlikni cheklash</a></li><li><a href="#12-fikriy-mulk">12. Fikriy mulk</a></li><li><a href="#13-yakunlash">13. Yakunlash</a></li><li><a href="#14-amal-qiluvchi-qonun-va-nizolar">14. Amal qiluvchi qonun va nizolar</a></li><li><a href="#15-shartlarning-o-zgarishi">15. Shartlarning oʻzgarishi</a></li><li><a href="#16-boshqa">16. Boshqa</a></li><li><a href="#17-aloqa">17. Aloqa</a></li></ol></div>
+<h2 id="1-kelishuv">1. Kelishuv</h2>
+<p>Bu shartlar siz va Safarali Group oʻrtasidagi S Brauzer ilovasidan foydalanish toʻgʻrisidagi kelishuvdir. Ilovani oʻrnatish, ochish yoki ishlatish orqali siz bu shartlarni qabul qilasiz. Qabul qilmasangiz, ilovani oʻchirib tashlang.</p>
+<h2 id="2-yosh">2. Yosh</h2>
+<p>18 yoshdan boshlab shartlarni oʻzingiz qabul qilasiz. 13 dan 17 gacha ota-ona yoki vasiy ruxsati bilan ishlatishingiz mumkin. 13 yoshgacha ishlatish taqiqlanadi.</p>
+<h2 id="3-ilova-nima-qiladi">3. Ilova nima qiladi</h2>
+<p>S Brauzer saytlarni koʻrsatadi va trafikni proksi orqali yoʻnaltiradi. Ilova proksilarni ochiq roʻyxatlardan oladi, tekshiradi va bittasini tanlaydi. Proksilar uchinchi shaxslarga tegishli. Biz ularni boshqarmaymiz, egalarini bilmaymiz, obroʼsini tekshirmaymiz va jurnal yuritmasligi yoki maʼlumotni buzmasligi haqida kafolat bera olmaymiz.</p>
+<h2 id="4-qabul-qiladigan-xavflaringiz">4. Qabul qiladigan xavflaringiz</h2>
+<ul><li>Proksi egasi ochgan saytlar manzillarini, ulanishlar vaqti va hajmini, tarmoq manzilingizni koʻradi. Shifrlanmagan trafikni oʻqiy va oʻzgartira oladi.</li><li>Bepul proksida parol, karta maʼlumotlari va tasdiqlash kodlarini kiritmang. Ilova bilan bank, davlat xizmatlari va kripto hamyonlaridan foydalanmang.</li><li>Proksi tekshiruvi faqat shuni anglatadi, u uchta soʻrovga javob beradi va 32 KB beradi. Bu xavfsizlik, tezlik yoki kuzatuv yoʻqligi kafolati emas.</li><li>Yuklab olingan fayllarni Android tizimli yuklab olish menejeri oladi, ilova proksisini chetlab oʻtadi. Soʻrov oʻz tarmoq manzilingizdan chiqadi.</li><li>Saytlar va ularning mazmuni bizning emas. Nima ochganingiz uchun siz javobgarsiz.</li></ul>
+<h2 id="5-taqiqlangan-foydalanish">5. Taqiqlangan foydalanish</h2>
+<p>Ilovani quyidagilar uchun ishlatmang:</p>
+<ul><li>siz boʻlgan mamlakat yoki trafik oʻtgan mamlakat qonunini buzish;</li><li>spam va ommaviy soʻrovsiz xabarlar yuborish;</li><li>tarmoq, server va xizmatlarga hujum, boshqalarning portlarini tekshirish, parol tanlash;</li><li>zararli dasturlar va phishing havolalarini tarqatish;</li><li>bolalarga jinsiy zoʻravonlik koʻrsatadigan har qanday material;</li><li>odamlarni aldash va firibgarlik;</li><li>boshqalarning xizmatlarini yuklash maqsadida proksilar orqali ommaviy avtomatik soʻrovlar;</li><li>ilova topgan proksilarga kirishni xizmat sifatida qayta sotish.</li></ul>
+<p>Alohida taqiqlanadi: ilovani oʻzingizniki qilib koʻrsatish, nusxalarini sotish, boshqa ilova ichiga oʻz nomingiz bilan kiritish yoki proksilar roʻyxatini tijorat maqsadida qayta sotib olish.</p>
+<p>Bu qoidalarni buzish ilovadan foydalanish huquqingizni tugatadi.</p>
+<h2 id="6-reklama-va-trekerlarni-bloklash">6. Reklama va trekerlarni bloklash</h2>
+<p>Blok roʻyxati ilovaga oʻrnatilgan. U saytlarni ishdan chiqara oladi: baʼzilari reklama va xizmat domendlarisiz ishlamaydi. Sayt ishlamasa, sozlamalarda blokirovkani oʻchirib qoʻying. Notoʻgʻri blokirovkadan kelib chiqadigan yoʻqotishlar uchun javob bermaymiz.</p>
+<h2 id="7-maxfiy-rejim">7. Maxfiy rejim</h2>
+<p>Maxfiy rejim maxfiy varaqda ochilgan saytlarning cookiesini, kesh va oʻsha varaq tarixini tozalaydi. U trafikni proksi egasidan yashirmaydi va maxfiy varaqni oddiy varaqlar bilan bogʻlashning oldini olmaydi, chunki proksi butun ilova uchun bitta. Batafsil Maxfiylik siyosatining 5-bandida.</p>
+<h2 id="8-fayllar-va-mualliflik-huquqi">8. Fayllar va mualliflik huquqi</h2>
+<p>Yuklab olingan va yuborilgan fayllar, shuningdek ular egalarining huquqlariga rioya qilish uchun siz javobgarsiz.</p>
+<h2 id="9-yangilanishlar-va-o-zgarishlar">9. Yangilanishlar va oʻzgarishlar</h2>
+<p>Biz yangilanishlarni oʻz xohishimizga koʻra chiqaramiz, funksiyalarni oʻzgartirish yoki olib tashlash, qoʻllab-quvvatlashni toʻxtatish mumkin. Baʼzi funksiyalar Android versiyasi, tizim va uchinchi tomon saytlariga bogʻliq va bizning ishtirokimizsiz ham ishdan chiqishi mumkin.</p>
+<h2 id="10-hech-qanday-kafolat-yo-q">10. Hech qanday kafolat yoʻq</h2>
+<p>Ilova «shunday» va «mavjud boʻlganidek» beriladi. Qonun ruxsat bergan darajada biz kafolat bermaymiz: xatosiz va uzilishsiz ishlash, proksi tekshiruvi va tanlashning aniqligi, proksi mavudligi va tezligi, maʼlum maqsadga mosligi, saytlar ochilishi, blokirovka xalaqit bermasligi.</p>
+<h2 id="11-javobgarlikni-cheklash">11. Javobgarlikni cheklash</h2>
+<p>Qonun ruxsat bergan maksimal darajada biz bilvosita va tasodifiy zararlar, foyda yoʻqotish, maʼlumot yoʻqotish, proksi orqali maʼlumot oqishi, uchinchi shaxslarning harakatlari, shu jumladan proksi operatorlari, ishsizlik va sayt mazmuni uchun javob bermaymiz. Safarali Groupning umumiy javobgarligi ilova uchun toʻlagan sumangizga cheklangan. Ilova bepul, demak bu summa nolga teng.</p>
+<p>Bu shartlarda qonun bilan istisno qilinmaydigan javobgarlik istisno qilinmaydi: niyat va ogʻir ehtiyotsizlik, hayot va salomatlikka zarar, mamlakatingiz qonuni bergan isteʼmolchi huquqlari.</p>
+<h2 id="12-fikriy-mulk">12. Fikriy mulk</h2>
+<p>Ilovaning nomi, ikonkasi, dizayni va kodi Safarali Groupga tegishli. Ochiq kutubxonalar oʻz litsenziyalari boʻyicha ishlatiladi, bogʻliqliklar roʻyxati <code>app/build.gradle.kts</code>da koʻrinadi. Sayt mazmuni sayt egalariga tegishli. Proksi roʻyxatlari tuzuvchilariga tegishli, ilova faqat oʻqiydi.</p>
+<p>Sizga shaxsiy, eksklyuziv boʻlmagan va oʻtkazib boʻlmaydigan foydalanish huquqi beriladi. Ilovani yozma ruxsatsiz nusxalash, oʻzgartirish, tarqatish va sotish taqiqlanadi.</p>
+<h2 id="13-yakunlash">13. Yakunlash</h2>
+<p>Ilovani oʻchirish orqali foydalanishni tugatasiz. Biz ilovani tarqatishni toʻxtatishimiz va yangilanish chiqarmasligimiz mumkin.</p>
+<h2 id="14-amal-qiluvchi-qonun-va-nizolar">14. Amal qiluvchi qonun va nizolar</h2>
+<p>Tojikiston Respublikasining qonuni amal qiladi. Yashash mamlakatingizdagi majburiy isteʼmolchi himoyasi qoidalari kuchini saqlaydi. Sudga borishdan oldin <code>t.me/Safaraligroup</code>ga yozing, yozishmalar orqali hal qilishga harakat qilamiz.</p>
+<h2 id="15-shartlarning-o-zgarishi">15. Shartlarning oʻzgarishi</h2>
+<p>Yangi tahrir ilovada va <code>safarali-ai.ru</code> manzilida chop etiladi. Tahrir sanasi tepada. Foydalanishni davom ettirsangiz, yangi tahrirni qabul qilgan boʻlasiz. Rozi boʻlmasangiz, ilovani oʻchirib tashlang.</p>
+<h2 id="16-boshqa">16. Boshqa</h2>
+<p>Bir band haqiqiy emas deb topilsa, qolganlari kuchida qoladi. Bu shartlar uchinchi shaxslarga huquq bermaydi.</p>
+<h2 id="17-aloqa">17. Aloqa</h2>
+<p>Telegram: <code>t.me/Safaraligroup</code></p>
+<p>Sayt: <code>safarali-ai.ru</code></p>
+</main>
+<footer>S Браузер, Safarali Group, Душанбе. Редакция от 25 ноября 2026 года.</footer>
+</body>
+</html>
